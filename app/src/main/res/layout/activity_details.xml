@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetailsActivity"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circImg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/noavatar"
+        />
+
+    <TextView
+        android:id="@+id/tvFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/circImg"
+        android:hint="Contact Name"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/tvPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFullName"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/circImg"
+        android:hint="Phone no."
+        android:textSize="15sp"
+        />
+</RelativeLayout>
