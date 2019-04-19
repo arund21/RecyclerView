@@ -16,11 +16,15 @@ public class Contact extends AppCompatActivity {
     private String name;
     private String phoneNo;
     private int imageId;
+    private String email;
+    private String address;
 
-    public Contact(String name, String phoneNo, int imageId) {
+    public Contact(String name, String phoneNo, int imageId, String email, String address) {
         this.name = name;
         this.phoneNo = phoneNo;
         this.imageId = imageId;
+        this.email= email;
+        this.address = address;
     }
 
     public String getName() {
@@ -45,6 +49,22 @@ public class Contact extends AppCompatActivity {
 
     public void setImageId(int imageId) {
         this.imageId = imageId;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     @Override

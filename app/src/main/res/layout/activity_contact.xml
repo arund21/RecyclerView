@@ -36,4 +36,5 @@
         android:hint="Phone no."
         android:textSize="15sp"
         />
+
 </RelativeLayout>

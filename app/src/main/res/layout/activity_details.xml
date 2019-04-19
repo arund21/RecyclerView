@@ -11,6 +11,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/noavatar"
+        android:layout_centerHorizontal="true"
         />
 
     <TextView
@@ -19,9 +20,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        android:layout_toEndOf="@+id/circImg"
+        android:layout_below="@+id/circImg"
         android:hint="Contact Name"
         android:textSize="15sp"
+        android:layout_centerHorizontal="true"
         />
     <TextView
         android:id="@+id/tvPhoneNo"
@@ -30,8 +32,30 @@
         android:layout_below="@+id/tvFullName"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        android:layout_toEndOf="@+id/circImg"
         android:hint="Phone no."
         android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPhoneNo"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEmail"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Address"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
         />
 </RelativeLayout>

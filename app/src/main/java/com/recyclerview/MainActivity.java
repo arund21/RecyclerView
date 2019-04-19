@@ -23,19 +23,19 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
 
         List<Contact> contactList = new ArrayList<>();
-        contactList.add(new Contact("Saugat Malla","908011122",R.drawable.saugat));
-        contactList.add(new Contact("Rajesh Hamal","908092212",R.drawable.rajesh));
-        contactList.add(new Contact("Dahayang Rai","7891226564",R.drawable.dahayang));
-        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan));
-        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan));
-        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan));
-        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan));
-        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan));
-        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan));
-        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan));
-        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan));
-        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan));
-        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan));
+        contactList.add(new Contact("Saugat Malla","908011122",R.drawable.saugat,"example@fdsf.fasdf","dfdsf"));
+        contactList.add(new Contact("Rajesh Hamal","908092212",R.drawable.rajesh,"example@fdsf.fasdf","example@fdsf.fasdf"));
+        contactList.add(new Contact("Dahayang Rai","7891226564",R.drawable.dahayang,"example@fdsf.fasdf","example@fdsf.fasdf"));
+        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan,"example@fdsf.fasdf","example@fdsf.fasdf"));
+        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan,"example@fdsf.fasdf","example@fdsf.fasdf"));
+        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan,"example@fdsf.fasdf","example@fdsf.fasdf"));
+        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan,"example@fdsf.fasdf","example@fdsf.fasdf"));
+        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan,"example@fdsf.fasdf","example@fdsf.fasdf"));
+        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan,"example@fdsf.fasdf","example@fdsf.fasdf"));
+        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan,"example@fdsf.fasdf","example@fdsf.fasdf"));
+        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan,"example@fdsf.fasdf","example@fdsf.fasdf"));
+        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan,"example@fdsf.fasdf","example@fdsf.fasdf"));
+        contactList.add(new Contact("Bhuwan KC","908011142",R.drawable.bhuwan,"example@fdsf.fasdf","example@fdsf.fasdf"));
 
 
         ContactsAdapter contactsAdapter = new ContactsAdapter(this,contactList);
